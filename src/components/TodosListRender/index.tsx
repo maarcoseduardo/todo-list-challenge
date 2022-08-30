@@ -35,7 +35,7 @@ export function TodosListRender({ user }: UserProp) {
         {todosList?.map((todos) => (
           <li
             key={todos.id}
-            className="flex flex-col justify-between w-full h-60 border border-violet-light-500 rounded-md bg-green-light-500 bg-gradient-to-r from-gray-light-200"
+            className="flex flex-col justify-between w-full h-60 border animate-scale-todo border-violet-light-500 rounded-md bg-green-light-500 bg-gradient-to-r from-gray-light-200"
           >
             <div className="flex justify-end items-center gap-6 mr-1 p-4">
               <p className="text-violet-light-500 font-bold">

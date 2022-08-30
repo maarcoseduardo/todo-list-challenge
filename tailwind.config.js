@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       animation: {
         'scroll-card-social-media': 'scroll-down 1.5s linear',
-
+        'scale-todo': 'scale-card 1s linear',
       },
       keyframes: {
         'scroll-down': {
@@ -26,7 +26,17 @@ module.exports = {
           '50%': {
             transform: 'translateY(0)',
             opacity: 1,
-          }
+          },
+        },
+        'scale-card': {
+          '0%': {
+            scale: '0.8',
+            opacity: 0,
+          },
+          '100%': {
+            scale: '1',
+            opacity: 1
+          },
         },
       },
     },
