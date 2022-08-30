@@ -21,11 +21,11 @@ module.exports = {
         'scroll-down': {
           '0%': {
             transform: 'translateY(-15%)',
-
-
+            opacity: 0,
           },
           '50%': {
             transform: 'translateY(0)',
+            opacity: 1,
           }
         },
       },
