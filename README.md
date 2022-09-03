@@ -26,10 +26,9 @@
 
 **ToDo List é um projeto para um teste técnico de uma empresa. No qual devemos desenvolver todo front-end responsivo e consumir uma Api que retorna dados de usuários e tarefas fictícias. Também é necessário inserir e remover uma nova tarefa, além de marca-la como completa ou não completa. .**
 
-## Desktop
+## Pré-visualização
 
-## Mobile
-
+![https://github.com/maarcoseduardo/todo-list-challenge/blob/master/Demo/TodoListChallenge.gif?raw=true](https://github.com/maarcoseduardo/todo-list-challenge/blob/master/Demo/TodoListChallenge.gif?raw=true)
 
 #### Pré-visualização do Projeto: https://todo-list-challenge-marcos.vercel.app/
 ---
